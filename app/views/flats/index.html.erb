@@ -2,6 +2,6 @@
 
 <ul>
 	<% @flats.each do |flat| %>
-		<li> <%= link_to flat["name"], flat_path(flat["id"]) %> </li>
+		<li> <%= link_to flat["name"], romeo_path(flat["id"]) %> </li>
 	<% end %>
 </ul>
